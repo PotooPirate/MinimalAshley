@@ -32,8 +32,8 @@ public class MovementSystem extends IteratingSystem {
 		
 		for(Entity entity : entitys) {
 			PositionComponent position = positionMapper.get(entity);
-			position.x += (Math.random() - 0.5) * 20 * deltaTime;
-			position.y += (Math.random() - 0.5) * 20 * deltaTime;
+			position.x += (Math.random() - 0.5) * 5 * deltaTime;
+			position.y += (Math.random() - 0.5) * 5 * deltaTime;
 		}
 	}
 
